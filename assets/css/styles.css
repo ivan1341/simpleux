@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-container{
+    width: 390px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 329px;
+}
+
+.title{
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0038FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: .5px black;
+}
+.phrase{
+    margin-top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phrase2{
+    margin-top: 44px;
+    margin-bottom: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #313131;
+}
+
+.blue{
+    color: #0038FF;
+}
+
+.card{
+    padding: 21px 19px;
+    width: 333px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 21px rgba(0, 56, 255, 0.09);
+}
+
+.card .pink-circle{
+    background-image: url(/assets/svg/Group\ 356.svg);
+    width: 30px;
+    height: 30px;
+    
+}
+
+.card h3{
+    font-weight: 700;
+}
+
+.card .description{
+    width: 191px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 4px;
+}
+
+footer{
+    margin-top: 24px;
+}
+
+footer .folow-account{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    color: #0038FF;
+}
+
+.quote-button{
+    justify-self: center;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    width: 222px;
+    height: 46px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #0038FF;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 14px;
+    box-sizing: border-box;
+}
