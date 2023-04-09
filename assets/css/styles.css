@@ -134,7 +134,6 @@ header .services{
 .card .pink-circle{
     display: flex;
     align-items: center;
-    background-image: url(../svg/Group356.svg);
     width: 21px;
     height: 38px;
     background-position-x: -4px;
