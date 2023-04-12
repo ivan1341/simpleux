@@ -33,7 +33,7 @@ html{
 }
 body {
     line-height: 1;
-    height: auto;
+    height: 100%;
 }
 ol, ul {
     list-style: none;
@@ -60,7 +60,7 @@ html{
     width: 390px;
     margin: 0 auto;
     padding-top: 23px;
-    height: calc(100% - 52px);
+   
 }
 
 header{
@@ -185,4 +185,16 @@ footer .folow-account{
     text-align: center;
     padding: 14px;
     box-sizing: border-box;
+}
+
+.full-width{
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+}
+
+@media only screen and (min-height: 760px) {
+    .main-container{
+        height: calc(100% - 69px);
+    }
 }
